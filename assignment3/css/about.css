@@ -1,0 +1,61 @@
+body {
+    background-image: url("../images/bgImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+#head {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5vw;
+    text-decoration: underline;
+}
+
+#bar1 {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+}
+
+.bar {
+    float: right;
+}
+
+.bar a {
+    display: block;
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+
+.bar a:hover{
+    text-decoration: none;
+    background-color: red;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+}
+
+#about {
+    font-size: 1.5vw; 
+}
+
+#imb {
+    float: right;
+    width: 39vw;
+    height: 30vw;
+    padding-bottom: 20px;
+}
+
+.tab {
+    height: 225px;
+    width: 280px;
+    padding: 20px;
+}
